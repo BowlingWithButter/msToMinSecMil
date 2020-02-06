@@ -18,7 +18,7 @@ public class msToMinSecMil {
 		System.out.println(minutes + " minute(s)");
 		//System.out.println("time left to calc = " + time);
 		double seconds = Math.floor(time * 0.001);
-		time = time % (minutes * 1000);
+		time = time % (seconds * 1000);
 		System.out.println(seconds + " second(s)");
 		//System.out.println("time left to calc = " + time);
 		double milliseconds = time;
